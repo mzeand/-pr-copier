@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub PR Copier",
+    "version": "1.0",
+    "description": "Copy Pull Request titles and URLs in rich text format.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "clipboardWrite"
+    ],
+    "host_permissions": [
+        "https://github.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon_16x16.png",
+            "48": "icon_48x48.png",
+            "128": "icon_120x120.png"
+        }
+    }
+}
